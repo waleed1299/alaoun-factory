@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>العون الحديث | Al-Oun Al-Hadith</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language-switch {
+      margin-right: auto;
+    }
+    .hero {
+      background-color: #e5e7eb;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #1f2937;
+    }
+    .section {
+      padding: 2rem;
+      background-color: white;
+      margin: 1rem 0;
+    }
+    .section h3 {
+      border-right: 5px solid #f97316;
+      padding-right: 0.5rem;
+      color: #1f2937;
+    }
+    ul {
+      padding-right: 1.5rem;
+    }
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>العون الحديث</h1>
+    <div class="language-switch">
+      <a href="index-en.html" style="color: #facc15; text-decoration: underline;">English</a>
+    </div>
+    <nav>
+      <a href="#about">من نحن</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#gallery">معرض الأعمال</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>خبرة في صيانة المحركات والمولدات والخراطة البحرية</h2>
+  </div>
+
+  <div class="section" id="about">
+    <h3>من نحن</h3>
+    <p>
+      العون الحديث هي شركة متخصصة في صيانة المحركات، المولدات، والمحركات البحرية، بالإضافة إلى أعمال الخراطة الدقيقة. نقدم خدماتنا بجودة عالية وبأيدي مهندسين وفنيين ذوي خبرة طويلة في المجال الصناعي.
+    </p>
+  </div>
+
+  <div class="section" id="services">
+    <h3>خدماتنا</h3>
+    <ul>
+      <li>صيانة المحركات الصناعية والبحرية</li>
+      <li>صيانة المولدات بكافة أنواعها</li>
+      <li>أعمال خراطة دقيقة للقطع الصناعية</li>
+      <li>تفصيل وتصنيع قطع معدنية حسب الطلب</li>
+      <li>خراطة أعمدة الكرنك ورؤوس المحركات</li>
+      <li>تعديل القطع التالفة وإعادة تأهيلها</li>
+    </ul>
+  </div>
+
+  <div class="section" id="gallery">
+    <h3>معرض الأعمال</h3>
+    <p>صور من أعمالنا قيد التحضير — سيتم عرض صور واقعية من الورشة قبل وبعد الصيانة والخراطة.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h3>اتصل بنا</h3>
+    <p>الهاتف: 0500000000</p>
+    <p>البريد الإلكتروني: info@aloun.com</p>
+    <p>الموقع: جدة، المملكة العربية السعودية</p>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/966500000000" target="_blank">راسلنا على واتساب</a>
+
+  <footer>
+    &copy; 2025 العون الحديث - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
